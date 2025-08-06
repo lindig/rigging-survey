@@ -5,6 +5,7 @@
 CLEAN += rigging.csv
 CLEAN += rigging.db
 CLEAN += export.csv
+CLEAN += stats.csv
 
 all: rigging.db export.csv
 

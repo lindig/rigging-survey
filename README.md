@@ -27,6 +27,13 @@ sqlite> select Class, count(*) from rigging group by Class order by Class;
 +-------+----------+
 ```
 
+## Files
+
+* survey.csv - orginal survey data
+* rigging.csv - pre-processed survey data
+* stats.csv - selected data for analysis with R
+* export.csv - re-exported survey data; use this
+
 [2017 FISA Rigging Survey]: https://worldrowing.com/document/2017-rigging-survey/
 
 
