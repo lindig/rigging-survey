@@ -5,12 +5,20 @@
 CLEAN += rigging.csv
 CLEAN += rigging.db
 CLEAN += export.csv
-CLEAN += stats.csv
+CLEAN += sweep.csv sculling.csv
 
-all: rigging.db export.csv
+PNG += x-oarlength.png x-gearing.png x-span.png
+
+all: rigging.db export.csv stats
+
+README.html: page.theme README.md stats
+	theme README.md
 
 clean:
 	rm -f $(CLEAN)
+
+stats:
+	./stats.r
 
 rigging.db: rigging.csv rigging.sql
 	rm -f rigging.db
