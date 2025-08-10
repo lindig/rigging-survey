@@ -27,20 +27,32 @@ that the import tries to clean up.
     +-------+----------+
 
 
-## Files
-
-* survey.csv - orginal survey data
-* rigging.csv - pre-processed survey data
-* export.csv - re-exported survey data; use this
-
-[2017 FISA Rigging Survey]: https://worldrowing.com/document/2017-rigging-survey/
-
 ## Sculling
 
 ![](./x-oarlength.png)
 
 ![](./x-span.png)
 
+![](./x-inboard.png)
+
 ![](./x-gearing.png)
 
 Gearing is defined here as length/inboard.
+
+## Sweep Rowing
+
+![](./oarlength.png)
+
+![](./span.png)
+
+![](./inboard.png)
+
+![](./gearing.png)
+
+Gearing is defined here as length/inboard.
+
+
+
+[2017 FISA Rigging Survey]: https://worldrowing.com/document/2017-rigging-survey/
+
+
