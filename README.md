@@ -39,6 +39,17 @@ The cleaned-up data from the survey is included in the repository as
 [export.csv](export.csv). Use this file if you don't want to work with
 the database directly.
 
+## Erronous Data
+
+The dataset includes entries where I suspect dimensions where either not
+measured correctly or entered wrong into the original spreadsheet:
+
+| Class | Country | Seat | OarInboard |
+|-------|---------|------|------------|
+| W8+   | RUS     | 2    | 110.5      |
+| M8+   | GBR     | 2    | 110.5      |
+| W1x   | SUI     | 1    | 85         |
+
 ## Variables
 
 Below is the list of variables captured for for each seat in the survey.
