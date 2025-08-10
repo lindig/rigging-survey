@@ -50,6 +50,10 @@ measured correctly or entered wrong into the original spreadsheet:
 | M8+   | GBR     | 2    | 110.5      |
 | W1x   | SUI     | 1    | 85         |
 
+| Class | Country | Seat | OarLength |
+|-------|---------|------|-----------|
+| W1x   | GER     | 1    | 275.5     |
+
 ## Variables
 
 Below is the list of variables captured for for each seat in the survey.
