@@ -4,10 +4,10 @@
 
 CLEAN += rigging.csv
 CLEAN += rigging.db
-CLEAN += export.csv
 CLEAN += sweep.csv sculling.csv
 
-PNG += x-oarlength.png x-gearing.png x-span.png
+PNG += x-oarlength.png x-gearing.png x-span.png x-inboard.png
+PNG += oarlength.png gearing.png span.png inboard.png
 
 all: rigging.db export.csv stats
 
@@ -17,7 +17,7 @@ README.html: page.theme README.md stats
 clean:
 	rm -f $(CLEAN)
 
-stats:
+stats: export.csv
 	./stats.r
 
 rigging.db: rigging.csv rigging.sql
@@ -29,6 +29,6 @@ rigging.csv: survey.csv
 
 export.csv: rigging.db export.sql
 	sqlite3 rigging.db < export.sql
-	
+
 
 
