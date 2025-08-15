@@ -1,6 +1,6 @@
 #! /usr/bin/awk -f
 #
-# The original data is not reapatign basic information for every seat in
+# The original data is not repeating basic information for every seat in
 # a boat. The script remembers it and emits it for those seats such that
 # each row becomes self contained.
 
