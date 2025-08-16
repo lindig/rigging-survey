@@ -9,7 +9,7 @@ xf$Seat <- as.factor(xf$Seat)
 xf$Country <- as.factor(xf$Country)
 xf$Gearing <- xf$OarOutboard / xf$OarInboard 
 
-p1 <- ggplot(xf, aes(Class, OarLength)) + geom_violin()
+p1 <- ggplot(xf, aes(Class, OarLength)) + geom_violin() + ylim(280,295)
 p2 <- ggplot(xf, aes(Class, Span)) + geom_violin()
 p3 <- ggplot(xf, aes(Class, OarInboard)) + geom_violin()
 p4 <- ggplot(xf, aes(Class, Gearing)) + geom_violin()
