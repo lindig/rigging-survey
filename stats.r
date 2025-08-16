@@ -37,7 +37,7 @@ ggsave("inboard.png", p3)
 ggsave("gearing.png", p4)
 
 
-p1 <- ggplot(df, aes(OarInboard, Spread)) +
+p1 <- ggplot(df, aes(OarInboard, Spread, color=Class)) +
       geom_point(position="jitter") +
       geom_smooth(method="lm", color = "skyblue", se = FALSE) +
       labs(title = "Relationship between inboard and spread",
@@ -45,7 +45,7 @@ p1 <- ggplot(df, aes(OarInboard, Spread)) +
        x="inboard", y ="spread")
 ggsave("inboard-spread.png", p1)
 
-p1 <- ggplot(xf, aes(OarInboard, Span)) +
+p1 <- ggplot(xf, aes(OarInboard, Span, color=Class)) +
       geom_point(position="jitter") +
       labs(title = "Relationship between inboard and span",
        x="inboard", y ="spread")

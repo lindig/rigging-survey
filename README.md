@@ -41,8 +41,9 @@ the database directly.
 
 ## Erronous Data
 
-The dataset includes entries where I suspect dimensions where either not
-measured correctly or entered wrong into the original spreadsheet:
+The dataset (still) includes entries where I suspect dimensions where
+either not measured correctly or entered wrong into the original
+spreadsheet:
 
 | Class | Country | Seat | OarInboard |
 |-------|---------|------|------------|
@@ -53,6 +54,8 @@ measured correctly or entered wrong into the original spreadsheet:
 | Class | Country | Seat | OarLength |
 |-------|---------|------|-----------|
 | W1x   | GER     | 1    | 275.5     |
+
+Consider removing these data points.
 
 ## Variables
 
