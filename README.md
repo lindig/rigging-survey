@@ -102,7 +102,7 @@ Below is the list of variables captured for for each seat in the survey.
 
 ![](./x-gearing.png)
 
-Gearing is defined here as ratio of oar length to inboard.
+Gearing is defined here as ratio of oar outboard to inboard.
 
 ## Sweep Rowing
 
@@ -114,7 +114,7 @@ Gearing is defined here as ratio of oar length to inboard.
 
 ![](./gearing.png)
 
-Gearing is defined here as ration of oar length to inboard.
+Gearing is defined here as ration of oar outboard to inboard.
 
 
 [2017 FISA Rigging Survey]: https://worldrowing.com/document/2017-rigging-survey/

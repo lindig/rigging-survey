@@ -7,7 +7,7 @@ xf <- read.csv("sculling.csv")
 xf$Class <- as.factor(xf$Class)
 xf$Seat <- as.factor(xf$Seat)
 xf$Country <- as.factor(xf$Country)
-xf$Gearing <- xf$OarLength / xf$OarInboard 
+xf$Gearing <- xf$OarOutboard / xf$OarInboard 
 
 p1 <- ggplot(xf, aes(Class, OarLength)) + geom_violin()
 p2 <- ggplot(xf, aes(Class, Span)) + geom_violin()
@@ -24,7 +24,7 @@ df <- read.csv("sweep.csv")
 df$Class <- as.factor(df$Class)
 df$Seat <- as.factor(df$Seat)
 df$Country <- as.factor(df$Country)
-df$Gearing <- df$OarLength / df$OarInboard 
+df$Gearing <- df$OarOutboard / df$OarInboard 
 
 p1 <- ggplot(df, aes(Class, OarLength)) + geom_violin()
 p2 <- ggplot(df, aes(Class, Spread)) + geom_violin()
