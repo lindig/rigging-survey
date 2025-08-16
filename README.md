@@ -102,7 +102,11 @@ Below is the list of variables captured for for each seat in the survey.
 
 ![](./x-gearing.png)
 
-Gearing is defined here as ratio of oar outboard to inboard.
+Gearing is defined here as ratio of oar outboard to inboard. It is in
+surisinggly narrow range accross boat classes -- unlike in sweep rowing.
+This could suggest that the definition of gearing is not adequate.
+Indeed, alternative definitions exist and it accepted that gearing over
+the stroke is not constant to begin with.
 
 ## Sweep Rowing
 
@@ -116,6 +120,13 @@ Gearing is defined here as ratio of oar outboard to inboard.
 
 Gearing is defined here as ration of oar outboard to inboard.
 
+## Correlations
+
+The data exhibits a strong correlation between inboard and spread. This
+is *not* present in sculling between span and inboard. 
+
+![](./inboard-spread.png)
+![](./x-inboard-spread.png)
 
 [2017 FISA Rigging Survey]: https://worldrowing.com/document/2017-rigging-survey/
 
